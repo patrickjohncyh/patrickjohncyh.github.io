@@ -105,6 +105,13 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
+    display: block;
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+header .intro-text .education {
+    display: block;
     font-size: 1.25em;
     font-weight: 300;
 }
@@ -116,11 +123,14 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3.75em;
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 1.5em;
+    }
+    header .intro-text .education {
+        font-size: 1.5em;
     }
 }
 
@@ -182,7 +192,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.alternate }};
 }
 
 @media(max-width:767px) {
@@ -193,6 +203,17 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+#about {
+    text-align: center;
+    color: #2c3e50;
+    background: #{{ site.color.alternate }};
+}
+
+#portfolio {
+    background: #{{ site.color.primary }};
+    color: #fff
 }
 
 #portfolio .portfolio-item {
@@ -245,6 +266,13 @@ section.success {
 #portfolio * {
     z-index: 2;
 }
+
+
+#contact {
+    color: #2c3e50;
+    background: #{{ site.color.alternate }};
+}
+
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
@@ -445,8 +473,21 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
+.navbar {
+    background-color: rgba({{ site.color.primary-rgb }},.0); !important;
+}
+
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
+}
+
+.navbar-default .navbar-nav>.active>a{
+    background-color: transparent !important;   
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover{
+    color:#fff;
 }
 
 /* Fix modal mouse wheel issues */
