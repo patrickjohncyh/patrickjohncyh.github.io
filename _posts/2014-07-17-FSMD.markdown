@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 2
+date: 2014-07-17
+img: fsmd.png
+alt: image-alt
+project-date: March 2019
+<!-- client: Start Bootstrap -->
+category: Functional Programming; High Level Programming; F#
+description: FSMD (F# Markdown) is a <strong>real-time markdown editor</strong>. The backend parser componenet, as the name suggests, is written in <strong>pure F#</strong>. The front-end uses the <strong><a href=https://electronjs.org/>electron</a></strong> framework inconjunction with F# that is transpiled into Javascript using <strong><a href=https://fable.io/>FABLE</a></strong>. Some user-friendly front-end features such as auto-parsing upon typing were also added.</br></br> More information available at <a href="https://github.com/patrickjohncyh/FSMD/tree/team-hlp-final/FSMD-master"> Github Repo </a>
+
+---

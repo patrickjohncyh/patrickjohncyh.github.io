@@ -102,7 +102,7 @@ header .row{
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  padding-top: 10px;
+  padding-top: 60px;
 }
 
 header img {
@@ -143,7 +143,7 @@ header .intro-text .education {
     }
 
     header .intro-text .name {
-        font-size: 4em;
+        font-size: 3em;
         margin-top:25px;
         margin-bottom:10px
     }
@@ -195,7 +195,7 @@ header .intro-text .education {
 }
 
 .navbar .navbar-nav {
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -306,6 +306,10 @@ section.success {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+}
+
+.social{
+    padding-top: 50px;
 }
 
 .btn-outline {
@@ -443,7 +447,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 50px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -460,7 +464,10 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content img {
+    margin-top: 20px;
     margin-bottom: 30px;
+    max-width: 80%;
+    height: auto;
 }
 
 .portfolio-modal .modal-content .item-details {
@@ -469,10 +476,10 @@ footer .footer-below {
 
 .portfolio-modal .close-modal {
     position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
+    top: 5px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
     background-color: transparent;
     cursor: pointer;
 }
@@ -484,7 +491,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
-    height: 75px;
+    height: 50px;
     margin-left: 35px;
     background-color: #{{ site.color.secondary }};
     -webkit-transform: rotate(45deg);
@@ -495,12 +502,20 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
-    height: 75px;
+    height: 50px;
     background-color: #{{ site.color.secondary }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+
+.modal-body>p{
+    text-align   : justify;
+    text-justify : inter-word;
+    line-height  : 30px;
+}
+
 
 .navbar {
     background-color: rgba(150,133,143,.7);
@@ -535,10 +550,6 @@ footer .footer-below {
 .navbar-default .navbar-toggle:focus {
     background-color: transparent;
 }
-/*
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    background: rgba(150,133,143,.9);
-}*/
 
 
 /* Fix modal mouse wheel issues */
@@ -547,3 +558,10 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+audio, canvas, progress, video {
+    display: block;
+    vertical-align: baseline;
+    margin: 0 auto;
+}
+
