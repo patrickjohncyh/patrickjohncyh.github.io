@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 4
+date: 2014-07-15
+img: sush.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: <video width="320" height="240" controls><source src="https://www.github.com/patrickjohncyh/patrickjohncyh.github.io/blob/master/vids/sush_demo.mov" type="video/mp4"></video>
+
+---
