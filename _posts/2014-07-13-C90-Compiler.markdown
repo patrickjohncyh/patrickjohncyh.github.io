@@ -4,7 +4,7 @@ modal-id: 6
 date: 2014-07-15
 img: compiler.png
 alt: image-alt
-project-date: April 2014
+project-date: March 2018
 <!-- client: Start Bootstrap -->
 category: C++; GNU; Assembly; MIPS
 description: A C89/90 to MIPS-I assembly compiler that utilises GNU tools (Flex and Bison) to perform Lexing and Parsing, and C++ to perform Code Generation. A testbench was also designed to perform rigorous testing in order to weed out any corner cases and bugs.</br></br>The compiler was designed to follow very closely to the functionality of a GCC C to MIPS compiler. It provides support for the most common use cases for C such as different variable types, variable shadowing, function calls (recursive) with different return types and parameter types, pointers and arrays. It also supports common programming constructs such as selection and iteration constructs.</br></br>A key design decision was to perform a majority of computation using memory rather than the available registers. Although this reduced the efficiency of the generated assembly, the focus was on correctness and accuracy of the compiler. This allowed for a simple and error free memory management and provided clean interface for use in the code generation phase.</br></br>This was an individual project which attained 95th-100th percentile for compiler functionality and accuracy.</br></br>For more information, check out the project's <a href='https://github.com/patrickjohncyh/C90-compiler'>Github Repo</a>.
