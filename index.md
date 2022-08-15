@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div id="bio_tab" class="tabcontent"  markdown=1>
-## Bio
-I am Patrick John Chia and am currently an Applied Scientist @ Coveo working with Dr Jacopo Tagliabue.
+## Patrick John Chia
+I am currently an Applied Scientist @ Coveo working with Dr Jacopo Tagliabue.
 Prior to this, I completed my M.Eng at Imperial College, London and spent my final year at MIT working closely 
 with Ferran Alet (PhD) in the Learning and Intelligent Systems (LIS) Group.
 
@@ -18,7 +18,7 @@ You can find my work at various academic and industrial CS/AI venues (ACL, TheWe
 
 <div id="projects_tab" class="tabcontent" markdown=1>
 ## Projects | Research
-***
+
 {{  site.posts }}
 </div>
 
