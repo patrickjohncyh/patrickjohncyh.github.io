@@ -7,13 +7,13 @@ remote_theme: pages-themes/minimal@v0.2.0
   plugins:
     - jekyll-remote-theme # add this line to the plugins list if you already have one
 github:
-  repository_url: https://github.com/patrickjohncyh
+  repository_url: "https://github.com/patrickjohncyh"
   icon: /assets/img/github.png
 linkedin:
-  profile_url: https://www.linkedin.com/in/patrick-john-chia/
+  profile_url: "https://www.linkedin.com/in/patrick-john-chia/"
   icon: /assets/img/linkedin.png
 gscholar:
-  url: https://scholar.google.ca/citations?hl=en&user=6nJbjacAAAAJ
+  url: "https://scholar.google.ca/citations?hl=en&user=6nJbjacAAAAJ"
   icon: /assets/img/gscholar.png
 publications:
   gradrec:
@@ -21,16 +21,16 @@ publications:
     year: 2022
     title: \"Does it come in black?\" CLIP-like models are zero-shot recommenders
     venue: ECNLP5 ACL'22
-    url: https://aclanthology.org/2022.ecnlp-1.22/
+    url: "https://aclanthology.org/2022.ecnlp-1.22/"
   reclist:
     author: Chia et al.
     year: 2022
     title: "Beyond NDCG : behavioral testing of recommender systems with RecList"
     venue: TheWebConf'22
-    url: https://www2022.thewebconf.org/PaperFiles/31.pdf
+    url: "https://www2022.thewebconf.org/PaperFiles/31.pdf"
   prodcomparison:
     author: Chia et al.
     year: 2021
     title: "\"Are you sure?\": Preliminary Insights from Scaling Product Comparisons to Multiple Shops"
     venue: SIGIR eCom’21
-    url: https://sigir-ecom.github.io/ecom21Papers/paper15.pdf
+    url: "https://sigir-ecom.github.io/ecom21Papers/paper15.pdf"
