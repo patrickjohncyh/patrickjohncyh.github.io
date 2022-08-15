@@ -19,7 +19,9 @@
 <!--        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>-->
 
         {% if site.logo %}
+           <p align="center">
           <img src="{{site.logo | relative_url}}" alt="Logo" width="216" />
+           </p>
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -33,9 +35,11 @@
 <!--        {% endif %}-->
 
         {% if site.show_downloads %}
+          <p align="center">
           <a href="{{ site.github.repository_url }}"><img src="{{site.github.icon}}" width="32">&nbsp&nbsp</a>
           <a href="{{ site.linkedin.profile_url }}"><img src="{{site.linkedin.icon}}" width="32"></a>
           <a href="{{ site.gscholar.url }}"><img src="{{site.gscholar.icon}}" width="32"></a>
+              </p>
         {% endif %}
       </header>
       <section>
