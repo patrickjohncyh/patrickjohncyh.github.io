@@ -15,6 +15,12 @@ gscholar:
   url: "https://scholar.google.ca/citations?hl=en&user=6nJbjacAAAAJ"
   icon: /assets/img/gscholar.png
 publications:
+  evalrs:
+    author: Tagliabue et al.
+    year: 2022
+    title: "EvalRS: a Rounded Evaluation of Recommender Systems"
+    venue: arXiv Preprint
+    url: "https://arxiv.org/abs/2207.05772"
   gradrec:
     author: Chia et al.
     year: 2022
@@ -27,6 +33,12 @@ publications:
     title: "Beyond NDCG : behavioral testing of recommender systems with RecList"
     venue: TheWebConf'22
     url: "https://www2022.thewebconf.org/PaperFiles/31.pdf"
+  sigirdata:
+      author: Tagliabue et al.
+      year: 2021
+      title: "Sigir 2021 e-commerce workshop data challenge"
+      venue: arXiv Preprint
+      url: "https://arxiv.org/abs/2104.09423"
   prodcomparison:
     author: Chia et al.
     year: 2021
