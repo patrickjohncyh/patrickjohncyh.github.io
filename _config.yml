@@ -32,7 +32,7 @@ publications:
     year: 2022
     title: "Beyond NDCG : behavioral testing of recommender systems with RecList"
     venue: TheWebConf'22
-    url: "https://www2022.thewebconf.org/PaperFiles/31.pdf"
+    url: "https://dl.acm.org/doi/10.1145/3487553.3524215"
   sigirdata:
       author: Tagliabue et al.
       year: 2021
