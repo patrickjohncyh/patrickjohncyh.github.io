@@ -2,7 +2,7 @@
 
 `FashionCLIP` is a CLIP-like model develoepd to produce generalizable, multimodal product
 representations for the fahion domain. We achieve this by fine-tuning a pretrained CLIP model
-on a <image,caption> dataset dervied from a high quality fashion catalog containing over 800K
+on an <image, caption> dataset dervied from a high quality fashion catalog containing over 800K
 product. We study whether such fine-tuning is sufficient to produce product representations that
 are zero-shot transferable to entirely new datasets and tasks.
 
