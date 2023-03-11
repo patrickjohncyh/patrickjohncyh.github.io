@@ -15,6 +15,18 @@ gscholar:
   url: "https://scholar.google.ca/citations?hl=en&user=6nJbjacAAAAJ"
   icon: /assets/img/gscholar.png
 publications:
+  natureevalrs:
+    author: Tagliabue et al.
+    year: 2023
+    title: "A challenge for rounded evaluation of recommender systems"
+    venue: Nature Machine Intelligence
+    url: "https://www.nature.com/articles/s42256-022-00606-0"
+  fashionclip:
+    author: Chia et al.
+    year: 2022
+    title: Contrastive language and vision learning of general fashion concepts
+    venue: Nature Scientific Reports
+    url: "https://www.nature.com/articles/s41598-022-23052-9"
   evalrs:
     author: Tagliabue et al.
     year: 2022
