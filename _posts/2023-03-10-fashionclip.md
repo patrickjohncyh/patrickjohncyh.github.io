@@ -12,6 +12,6 @@ are zero-shot transferable to entirely new datasets and tasks.
 
 Our results demonstrate strong zero-shot classification on a wide range of fashion datasets,
 highlighting the merits of doamin specific fine-tuning. Furthermore, we study the _compositional_
-and _grounding_ capabilities of CLIP-like models by creating synthetic products (see above ``_Nike Dress_'')
+and _grounding_ capabilities of CLIP-like models by creating synthetic products (see above "_Nike Dress_")
 and testing FashionCLIP retrieval/classifcation on them. Our model is hosted on [Hugging Face](https://huggingface.co/patrickjohncyh/fashion-clip), check it out!
 
