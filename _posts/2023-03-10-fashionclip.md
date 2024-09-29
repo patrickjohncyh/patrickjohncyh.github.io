@@ -1,4 +1,5 @@
 ### [FashionCLIP](https://huggingface.co/patrickjohncyh/fashion-clip)
+Update: To date (Sep, 24) FashionCLIP has amassed more than 50M downloads on Hugging Face!
 
 `FashionCLIP` is a CLIP-like model develoepd to produce generalizable, multimodal product
 representations for the fahion domain. We achieve this by fine-tuning a pretrained CLIP model
